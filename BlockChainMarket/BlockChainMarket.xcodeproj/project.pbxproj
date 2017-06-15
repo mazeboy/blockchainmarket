@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E3E07E51EF037D20084FB1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E07E41EF037D20084FB1A /* AppDelegate.m */; };
+		4E3E07E81EF037D20084FB1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E07E71EF037D20084FB1A /* main.m */; };
+		4E3E07EB1EF037D20084FB1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E07EA1EF037D20084FB1A /* ViewController.m */; };
+		4E3E07ED1EF037D20084FB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E07EC1EF037D20084FB1A /* Assets.xcassets */; };
+		4E3E07F01EF037D20084FB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E3E07EE1EF037D20084FB1A /* Main.storyboard */; };
+		4E3E08051EF040B90084FB1A /* MarketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E08041EF040B90084FB1A /* MarketManager.m */; };
+		4E3E080B1EF04E180084FB1A /* MarketInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E080A1EF04E180084FB1A /* MarketInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E3E07E01EF037D20084FB1A /* BlockChainMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockChainMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3E07E31EF037D20084FB1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E3E07E41EF037D20084FB1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E3E07E71EF037D20084FB1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E3E07E91EF037D20084FB1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E3E07EA1EF037D20084FB1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E3E07EC1EF037D20084FB1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E3E07EF1EF037D20084FB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E3E07F11EF037D20084FB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3E07F91EF03D700084FB1A /* MarketManager+Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarketManager+Public.h"; sourceTree = "<group>"; };
+		4E3E08031EF040B90084FB1A /* MarketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketManager.h; sourceTree = "<group>"; };
+		4E3E08041EF040B90084FB1A /* MarketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketManager.m; sourceTree = "<group>"; };
+		4E3E08091EF04E180084FB1A /* MarketInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketInfo.h; sourceTree = "<group>"; };
+		4E3E080A1EF04E180084FB1A /* MarketInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E3E07DD1EF037D20084FB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E3E07D71EF037D20084FB1A = {
+			isa = PBXGroup;
+			children = (
+				4E3E07E21EF037D20084FB1A /* BlockChainMarket */,
+				4E3E07E11EF037D20084FB1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E3E07E11EF037D20084FB1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E07E01EF037D20084FB1A /* BlockChainMarket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E3E07E21EF037D20084FB1A /* BlockChainMarket */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E07E31EF037D20084FB1A /* AppDelegate.h */,
+				4E3E07F91EF03D700084FB1A /* MarketManager+Public.h */,
+				4E3E08031EF040B90084FB1A /* MarketManager.h */,
+				4E3E08041EF040B90084FB1A /* MarketManager.m */,
+				4E3E08091EF04E180084FB1A /* MarketInfo.h */,
+				4E3E080A1EF04E180084FB1A /* MarketInfo.m */,
+				4E3E07E41EF037D20084FB1A /* AppDelegate.m */,
+				4E3E07E91EF037D20084FB1A /* ViewController.h */,
+				4E3E07EA1EF037D20084FB1A /* ViewController.m */,
+				4E3E07EC1EF037D20084FB1A /* Assets.xcassets */,
+				4E3E07EE1EF037D20084FB1A /* Main.storyboard */,
+				4E3E07F11EF037D20084FB1A /* Info.plist */,
+				4E3E07E61EF037D20084FB1A /* Supporting Files */,
+			);
+			path = BlockChainMarket;
+			sourceTree = "<group>";
+		};
+		4E3E07E61EF037D20084FB1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E3E07E71EF037D20084FB1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E3E07DF1EF037D20084FB1A /* BlockChainMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3E07F41EF037D20084FB1A /* Build configuration list for PBXNativeTarget "BlockChainMarket" */;
+			buildPhases = (
+				4E3E07DC1EF037D20084FB1A /* Sources */,
+				4E3E07DD1EF037D20084FB1A /* Frameworks */,
+				4E3E07DE1EF037D20084FB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockChainMarket;
+			productName = BlockChainMarket;
+			productReference = 4E3E07E01EF037D20084FB1A /* BlockChainMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E3E07D81EF037D20084FB1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "张奎";
+				TargetAttributes = {
+					4E3E07DF1EF037D20084FB1A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4E3E07DB1EF037D20084FB1A /* Build configuration list for PBXProject "BlockChainMarket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E3E07D71EF037D20084FB1A;
+			productRefGroup = 4E3E07E11EF037D20084FB1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E3E07DF1EF037D20084FB1A /* BlockChainMarket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E3E07DE1EF037D20084FB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3E07ED1EF037D20084FB1A /* Assets.xcassets in Resources */,
+				4E3E07F01EF037D20084FB1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E3E07DC1EF037D20084FB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3E07EB1EF037D20084FB1A /* ViewController.m in Sources */,
+				4E3E08051EF040B90084FB1A /* MarketManager.m in Sources */,
+				4E3E080B1EF04E180084FB1A /* MarketInfo.m in Sources */,
+				4E3E07E81EF037D20084FB1A /* main.m in Sources */,
+				4E3E07E51EF037D20084FB1A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E3E07EE1EF037D20084FB1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E3E07EF1EF037D20084FB1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E3E07F21EF037D20084FB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E3E07F31EF037D20084FB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E3E07F51EF037D20084FB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BlockChainMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kory.BlockChainMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E3E07F61EF037D20084FB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BlockChainMarket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kory.BlockChainMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E3E07DB1EF037D20084FB1A /* Build configuration list for PBXProject "BlockChainMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3E07F21EF037D20084FB1A /* Debug */,
+				4E3E07F31EF037D20084FB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3E07F41EF037D20084FB1A /* Build configuration list for PBXNativeTarget "BlockChainMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3E07F51EF037D20084FB1A /* Debug */,
+				4E3E07F61EF037D20084FB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E3E07D81EF037D20084FB1A /* Project object */;
+}
