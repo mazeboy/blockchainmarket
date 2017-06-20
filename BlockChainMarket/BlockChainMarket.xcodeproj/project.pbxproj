@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E15DEEF1EF7F9CE00C67E01 /* CoinItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E15DEEE1EF7F9CE00C67E01 /* CoinItem.m */; };
+		4E15DEF21EF8184100C67E01 /* CoinInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E15DEF11EF8184100C67E01 /* CoinInfo.m */; };
 		4E3E07E51EF037D20084FB1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E07E41EF037D20084FB1A /* AppDelegate.m */; };
 		4E3E07E81EF037D20084FB1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E07E71EF037D20084FB1A /* main.m */; };
 		4E3E07EB1EF037D20084FB1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E07EA1EF037D20084FB1A /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E15DEED1EF7F9CE00C67E01 /* CoinItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinItem.h; sourceTree = "<group>"; };
+		4E15DEEE1EF7F9CE00C67E01 /* CoinItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinItem.m; sourceTree = "<group>"; };
+		4E15DEF01EF8183400C67E01 /* CoinInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinInfo.h; sourceTree = "<group>"; };
+		4E15DEF11EF8184100C67E01 /* CoinInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoinInfo.m; sourceTree = "<group>"; };
 		4E3E07E01EF037D20084FB1A /* BlockChainMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockChainMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3E07E31EF037D20084FB1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E3E07E41EF037D20084FB1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 		4E3E07E21EF037D20084FB1A /* BlockChainMarket */ = {
 			isa = PBXGroup;
 			children = (
+				4E15DEED1EF7F9CE00C67E01 /* CoinItem.h */,
+				4E15DEEE1EF7F9CE00C67E01 /* CoinItem.m */,
+				4E15DEF01EF8183400C67E01 /* CoinInfo.h */,
+				4E15DEF11EF8184100C67E01 /* CoinInfo.m */,
 				4E3E07E31EF037D20084FB1A /* AppDelegate.h */,
 				4E3E07F91EF03D700084FB1A /* MarketManager+Public.h */,
 				4E3E08031EF040B90084FB1A /* MarketManager.h */,
@@ -158,11 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E15DEEF1EF7F9CE00C67E01 /* CoinItem.m in Sources */,
 				4E3E07EB1EF037D20084FB1A /* ViewController.m in Sources */,
 				4E3E08051EF040B90084FB1A /* MarketManager.m in Sources */,
 				4E3E080B1EF04E180084FB1A /* MarketInfo.m in Sources */,
 				4E3E07E81EF037D20084FB1A /* main.m in Sources */,
 				4E3E07E51EF037D20084FB1A /* AppDelegate.m in Sources */,
+				4E15DEF21EF8184100C67E01 /* CoinInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

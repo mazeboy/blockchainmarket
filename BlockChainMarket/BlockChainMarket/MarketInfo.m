@@ -8,18 +8,6 @@
 
 #import "MarketInfo.h"
 
-@implementation NSValue (MarketInfo)
-
-+ (instancetype)valueWithMarketInfo:(MarketInfo)value
-{
-    return [self valueWithBytes:&value objCType:@encode(MarketInfo)];
-}
-
-- (MarketInfo) marketInfoValue
-{
-    MarketInfo value;
-    [self getValue:&value];
-    return value;
-}
+@implementation MarketInfo : NSObject
 
 @end

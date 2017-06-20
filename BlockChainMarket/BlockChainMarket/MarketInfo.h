@@ -9,14 +9,9 @@
 #import <Foundation/Foundation.h>
 
 
-typedef struct MarketInfo {
-    __unsafe_unretained NSString* id;
-    __unsafe_unretained NSString* name;
-}MarketInfo;
+@interface MarketInfo : NSObject
 
-@interface NSValue (MarketInfo)
-
-+ (instancetype)valueWithMarketInfo:(MarketInfo)value;
-@property (readonly) MarketInfo marketInfoValue;
+@property NSString* id;
+@property NSString* name;
 
 @end

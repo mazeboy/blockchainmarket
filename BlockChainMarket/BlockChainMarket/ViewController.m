@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <Foundation/Foundation.h>
+#import "CoinItem.h"
 
 @implementation ViewController
 
@@ -19,26 +20,31 @@ static int cellInterval = 30;
 
     // Do any additional setup after loading the view.
     id<MarketManagerProtocol> marketManager = [[MarketManager alloc] init];
-    NSArray* marketList = [marketManager GetMaketList];
+    NSArray* marketList = [marketManager GetMarketList];
+    NSDictionary* marketDetails = [marketManager GetMarketDetails];
     
     NSLog(@"size:%d",marketList.count);
     
     int i = 0;
-    for (NSValue* value in marketList) {
-        MarketInfo marketInfo = [value marketInfoValue];
-        
+    for (MarketInfo* marketInfo in marketList) {
+        CoinItem* coinItem = [marketDetails objectForKey:marketInfo.id];
+            
         NSTextField* textField = [[ NSTextField alloc] init];
         textField.placeholderString = marketInfo.name;
-        textField.frame = CGRectMake(0,0+i*cellInterval,100,cellHeight) ;
-        textField.accessibilityTitle = marketInfo.name;
+        textField.frame = CGRectMake(0,0+i*cellInterval,1000,cellHeight) ;
+        //textField.accessibilityTitle = [NSString stringWithFormat:@"%@ %@",
+          //                              marketInfo.name, [coinItem ToString]];
         textField.editable = FALSE;
-        textField.stringValue = marketInfo.name;
+        textField.stringValue = [NSString stringWithFormat:@"%@ %@",
+                                 marketInfo.name, [coinItem ToString]];
         [self.view addSubview:textField];
         ++i;
     }
     
     
-    [self.view setFrameSize:NSMakeSize(500,i * (cellInterval + cellHeight))];    
+    [self.view setFrameSize:NSMakeSize(500,i * (cellInterval + cellHeight))];
+    //[self.view setFrameSize:NSMakeSize(100,100)];
+
 }
 
 

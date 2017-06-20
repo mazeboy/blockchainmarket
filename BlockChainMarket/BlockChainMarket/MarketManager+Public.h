@@ -14,8 +14,8 @@
 @protocol MarketManagerProtocol <NSObject>
 
 @required
-- (NSArray*) GetMaketList;
-
+- (NSArray*) GetMarketList;
+- (NSDictionary*) GetMarketDetails;
 
 @end
 
